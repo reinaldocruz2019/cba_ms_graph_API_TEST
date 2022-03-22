@@ -71,6 +71,7 @@ namespace graphconsoleapp
                 }
                 password.AppendChar(c.KeyChar);
                 Console.Write("*");
+                
             }
             Console.WriteLine();
             return password;
